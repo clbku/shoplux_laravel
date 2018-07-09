@@ -1,0 +1,12 @@
+.size-1of2 {
+    width: 21%!important;
+}
+.card-1 {
+    position: relative;
+    background: #2b3942;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    width: 21%;
+    float: left;
+    margin: 13px;
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-yellow{
+    background: yellow!important;
+}
+.bg-green{
+    background: green!important;
+}
+.bg-orange{
+    background: orange!important;
+}
+.bg-lightblue{
+    background: lightblue !important;
+}
+.bg-violet{
+    background: violet !important;
+}
+.order .order-image {
+    height: auto;
+}
+.order .order-information {
+    height: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "shoplux";
+    src: url("../fonts/foglihtenno01.ttf") format('truetype');
+}
+.navbar .nav{
+    float: right;
+    padding-right: 2%;
+}
+.navbar {
+    width: 100%;
+    background: #34495e;
+    color: white;
+    border: none;
+    border-radius: 0;
+    margin: auto;
+}
+.navbar ul li {
+    float: left;
+    list-style: none;
+    margin: 13px;
+}
+.search{
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+input[type="text"]{
+    width: 75%;
+    height: 50px;
+}
+button#submit-search{
+    height: 50px;
+}
+button#submit-search{
+    height: 50px;
+    background: #e74c3c;
+    border: 1px solid #e67e22;
+    width: 50px;
+    color: white;
+}
+button#submit-search:hover{
+    border: 1px solid #fff;
+}
+button#submit-search .icon{
+    font-size: 20px;
+}
+.shop-name {
+    font-family: 'shoplux', serif;
+    font-size: 50px;
+    color: red;
+    width: 100%;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: right;
+    float: left;
+}
+.category{
+    width: 100%;
+    background: #2c3e50;
+    color: white;
+    height: 40px;
+}
+.category ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+.category ul li:hover{
+    color: #e74c3c;
+    cursor: pointer;
+}
+.container{
+    width: 90%;
+}
+
+.active{
+    padding: 10px;
+}
+.nav-active{
+    color: #e74c3c;
+}
+.hide{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.title{
+    color: red;
+    font-size: 20px;
+}
+.underline{
+    width: 30%;
+    height: 2px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.order{
+    margin: 45px 0;
+}
+.order .order-information input[type="text"]{
+    height: 10px;
+    margin: 5px;
+    width: 52%;
+}
+.order .order-image img {
+    width: 100%;
+}
+.order .order-image {
+    margin: 0;
+    padding: 0;
+}
+.order button {
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #d35400;
+    margin: 35px 15px;
+}
+.order-font {
+    font-size: 17px;
+    color: #d35400;
+}
